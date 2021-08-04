@@ -43,16 +43,16 @@ divs.forEach((item, idx) => {
 })
 
 
-// wrapper.addEventListener('click',(event) => {
-//     if (event.target.classList[0] !== 'wrapper')
-//     divs.forEach((el => {
-//         el.removeAttribute('class') // удалить в каждом эл атрибут класс
-//         el.innerText = '' //
-//     }))
-//     const randomNumber = Math.floor(Math.random() * colors.length)
-//     event.target.classList.add(colors[randomNumber])
-//     event.target.innerText = text[randomNumber]
-// })
+wrapper.addEventListener('click',(event) => {
+    if (event.target.classList[0] !== 'wrapper')
+    divs.forEach((el => {
+        el.removeAttribute('class') // удалить в каждом эл атрибут класс
+        el.innerText = '' //
+    }))
+    const randomNumber = Math.floor(Math.random() * colors.length)
+    event.target.classList.add(colors[randomNumber])
+    event.target.innerText = text[randomNumber]
+})
 
 
 
