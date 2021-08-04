@@ -1,0 +1,21 @@
+@media (max-width: 1600px) { /* 1201 - 1600 */
+
+}
+@media (max-width: 1200px) { /* 1025 - 1200 */
+
+}
+@media (max-width: 1024px) { /* 993 - 1024 */
+
+}
+@media (max-width: 992px) { /* 769 - 992 */
+    .grid  {
+        grid-template-columns: repeat(3, 120px);
+        grid-template-rows: repeat(5, 120px);
+    }
+}
+@media (max-width: 768px) { /* 481 - 768 */
+
+}
+@media (max-width: 480px) {  /* 0 - 480 */
+
+}
