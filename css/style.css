@@ -1,0 +1,77 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    grid-template-rows: repeat(3, 150px);
+    font-size: 21px;
+    color: #000;
+}
+.wrapper div {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.black{
+    background-color: black;
+    color: white;
+}
+.red {
+    background: red;
+    color: chartreuse;
+    background: url("../20170808_162839.jpg") no-repeat center/cover;
+}
+.green {
+    background: green;
+    color: white;
+}
+ .yellow {
+    background: yellow;
+}
+ .darkslateblue {
+     background: darkslateblue;
+     color: white;
+ }
+ .crimson {
+     background: crimson;
+ }
+ .aqua {
+     background: aqua;
+ }
+ .cornflowerblue {
+     background: cornflowerblue;
+ }
+ .hotpink {
+     background: hotpink;
+
+ }
+ .chartreuse {
+     background: chartreuse;
+ }
+ .indigo {
+     background: indigo;
+     color: white;
+ }
+ .deeppink {
+     background: deeppink;
+ }
+ .purple {
+     background: purple;
+     color: white;
+ }
+ .orange {
+     background: orange;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
